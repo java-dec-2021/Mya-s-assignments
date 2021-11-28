@@ -1,7 +1,0 @@
-/**
- * Hello
- */
-public class Hello {
-
-    
-}
