@@ -11,12 +11,14 @@ public class Map{
         // String name = song.get("waka waka aaa");
         // System.out.println("Lyrics : " + name);
 
+        System.out.println(song.get("Ghost"));
+
         
-        for(HashMap.Entry<String, String> track:song.entrySet()){
-            System.out.println(track.getKey() + " : " + track.getValue());
+        // for(HashMap.Entry<String, String> track:song.entrySet()){
+        //     System.out.println(track.getKey() + " : " + track.getValue());
         
         }
-        
-    }
+     
+    
 
 }
