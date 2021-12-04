@@ -24,6 +24,7 @@ public class Mammal {
     public void setEnergyLevel(int energyLevel) {
         this.energyLevel = energyLevel;
     }
+    
     public int getDisplayEnergy() {
         return displayEnergy;
     }
