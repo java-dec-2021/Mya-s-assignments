@@ -18,11 +18,11 @@ public class AlfredQuotes{
 
     public String respondBeforeAlexis(String conversation){
         
-        if (conversation.indexOf("Alexis") < -1){
-            return("Right away, sir");
+        if (conversation.indexOf("Alexis") != -1){
+            return("Right away, sir. She certainly isn't sophisticated enough for that.");
         }
-        else if(conversation.indexOf("Alfred") < -1){
-            return "At your service!";
+        else if(conversation.indexOf("Alfred") != -1){
+            return "At your service! As you wish, naturally.";
         }
         else{
             return("Right, and with that I shall retire.");
