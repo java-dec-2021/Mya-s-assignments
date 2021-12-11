@@ -17,29 +17,34 @@ public class FizzBuzz{
 
     // ninja bonus
     public String fizzbuzz(int number, String multOf3Word, String multOf5Word, String multOf15Word){
-        if (number % 18 == 0){
-            if (multOf3Word == null)
-                return "fizz";
-            else{
-                return multOf3Word;
-            }
-        }
-        else if (number % 25 == 0){
-            if (multOf5Word == null)
-                return "Buzz";
-            else{
-                return multOf5Word;
-            }
-        }
-        else if (number % 30 == 0){
-            if (multOf15Word == null)
+        if(number % 15 == 0){
+            if(multOf15Word == null){
                 return "FizzBuzz";
+            }
             else{
                 return multOf15Word;
             }
         }
+        else if(number % 5 == 0){
+            if(multOf5Word == null){
+                return "Buzz";
+            }
+            else{
+                return multOf5Word;
+            }
+        }
+        else if(number % 3 == 0){
+            if(multOf3Word == null){
+                return "Fizz";
+            }
+            else{
+                return multOf3Word;
+            }
+        }
+        
         else{
             return String.valueOf(number);
+            // return Integer.toString(number);
         }
         
     }
