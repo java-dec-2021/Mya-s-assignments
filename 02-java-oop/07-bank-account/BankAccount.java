@@ -79,7 +79,7 @@ public class BankAccount {
                 System.out.println("Insufficient Funds");
             }
             else{
-                this.setCheckingBalance(this.getCheckingBalance()-amount);
+                this.setSavingBalance(this.getSavingBalance()+amountOfMoney);
                 amountOfMoney-= amount;
             }
         }
