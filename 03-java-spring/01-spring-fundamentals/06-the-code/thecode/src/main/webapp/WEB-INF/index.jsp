@@ -9,10 +9,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<h4>${errors}</h4>
 	<p>What is the code?</p>
-	<form action="/code" method="post">
-	<input class="">
-	<input class="" name="error" type="submit" value="Try Code">
-	</form>
+	<form action="/submit" method="POST">
+		<input class="" type="text" name="code">
+		<input class="" type="submit" value="Try Code">
+	</form> 
 </body>
 </html>
