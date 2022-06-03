@@ -1,2 +1,1 @@
-# Mya-s-assignments
-Java Stack
+Projects and assignments from coding dojo
